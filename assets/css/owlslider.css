@@ -1,0 +1,49 @@
+.testimonial .owl-prev,
+.testimonial .owl-next {
+    position: absolute;
+    top: 0;
+    bottom: auto;
+}
+
+.testimonial .owl-prev {
+    left: -80px;
+}
+
+.testimonial .owl-next {
+    right: -60px;
+}
+
+.testimonial .owl-prev>i,
+.testimonial .owl-next>i {
+    font-size: 48px;
+}
+
+.staff .owl-prev {
+    top: 90px;
+}
+
+.staff .owl-next {
+    top: 90px;
+    display: inline-block;
+}
+
+.staff .owl-carousel .owl-item img {
+    /* display: block; */
+    margin-left: 25%;
+}
+
+@media all and (max-width: 600px) {
+
+    .testimonial .owl-prev {
+        left: -10px;
+        top: 200px;
+        /* bottom: 1px; */
+    }
+
+    .testimonial .owl-next {
+        right: -10px;
+        top: 200px;
+        /* bottom: 1px; */
+    }
+
+}
